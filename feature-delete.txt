@@ -1,0 +1,12 @@
+///simple delete function
+
+bool delete(int ids){
+    //will return true if removing object sucess
+    bool rm = remove(ids);
+    return rm;
+}
+
+int checkIds(int ids){
+    bool resCheck = exist(ids);
+    return resCheck ? ids : -1;
+}
