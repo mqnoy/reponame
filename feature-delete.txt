@@ -5,3 +5,8 @@ bool delete(int ids){
     bool rm = remove(ids);
     return rm;
 }
+
+int checkIds(int ids){
+    bool resCheck = exist(ids);
+    return resCheck ? ids : -1;
+}
