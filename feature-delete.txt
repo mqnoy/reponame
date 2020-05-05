@@ -1,0 +1,7 @@
+///simple delete function
+
+bool delete(int ids){
+    //will return true if removing object sucess
+    bool rm = remove(ids);
+    return rm;
+}
