@@ -1,0 +1,8 @@
+//i present you about feature write
+
+
+///function write 
+///params String
+void write(String str){
+  echo str
+}
